@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="sea"
+                 name="Secure Endpoint Access"
+                 start-page="starter-topic.md">
+
+    <toc-element topic="starter-topic.md"/>
+    <toc-element topic="Terms-Entities.md"/>
+    <toc-element topic="Prerequisites.md"/>
+    <toc-element topic="Establishing-Trust.md"/>
+    <toc-element topic="Making-Trusted-Requests.md"/>
+    <toc-element topic="Destroying-Trust.md"/>
+</instance-profile>
