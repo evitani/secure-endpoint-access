@@ -4,7 +4,7 @@ It is good practice for a service to rotate [Service Verification Pairs](Terms-E
 
 To support with seamless rotation of keys, SEA is designed to provide an overlap period. During this period, two Service Verification pairs are considered valid and the service must support clients who expect either to be used. This allows up to 90 days for client applications to be updated with a replacement SVPK without impacting the end user experience.
 
-_NB: Services should not rotate keys more regularly than is necessary to ensure the security of its channels. Doing so slows down responses, increases client application management, and introduces risk by requiring regular communication of replacement keys._
+_NB: Services should not rotate keys more regularly than is necessary to ensure the security of their channels. Doing so slows down responses, increases client application management, and introduces risk by requiring regular communication of replacement keys._
 
 ## Establishing Trust
 While in a rotation period, the service will receive trust establishment requests from client applications and process them as normal. However, while calculating the signature of the Verification Challenge, it will calculate signatures with both of the accepted SVSKs. The resulting strings will both be placed into the `vc_signature` array, with the newer pair's signature first.
