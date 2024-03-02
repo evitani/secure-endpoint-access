@@ -12,4 +12,5 @@
     <toc-element topic="Establishing-Trust.md"/>
     <toc-element topic="Making-Trusted-Requests.md"/>
     <toc-element topic="Destroying-Trust.md"/>
+    <toc-element topic="Service-Verification-Pair-Rotation.md"/>
 </instance-profile>
